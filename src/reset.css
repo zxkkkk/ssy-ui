@@ -1,0 +1,54 @@
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+a,
+img,
+ul,
+li,
+form,
+label,
+input,
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system-fornt, BlinkMacSyStemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sa ns-serif
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+  background: none;
+}
