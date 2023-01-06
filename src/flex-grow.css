@@ -1,0 +1,23 @@
+/* CSS */
+.flex-box {
+  display: flex;
+}
+
+.flex-box>.box {
+  width: 50px;
+  height: 100px;
+}
+
+.flex-box>.box1 {
+  flex-grow: 1;
+  background: red;
+}
+
+.flex-box>.box2 {
+  background: green;
+}
+
+.flex-box>.box3 {
+  flex-grow: 2;
+  background: yellow;
+}

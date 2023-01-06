@@ -13,3 +13,9 @@
 
 /* 导航条样式 */
 @import './navbar.css';
+
+/* 表单元素样式 */
+@import './input.css';
+
+/* 按钮的样式 */
+@import './button.css';
