@@ -4,22 +4,28 @@
 
 html {
   font-size: 20px;
+  height: 100%;
 }
 
 @media(max-width:340px) {
   html {
     font-size: 18px;
+    height: 100%;
+
   }
 }
 
 @media(min-width:410px) {
   html {
     font-size: 22px;
+    height: 100%;
+
   }
 }
 
 /* body默认样式 */
 body {
+  height: 100%;
   max-width: 640px;
   margin: 0 auto;
   background: #f8f8f8;
@@ -28,7 +34,7 @@ body {
 }
 
 /* 页面蒙版 */
-.ssy-mark {
+.ssy-mask {
   position: fixed;
   top: 0;
   bottom: 0;
